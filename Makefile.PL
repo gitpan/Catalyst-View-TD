@@ -18,6 +18,6 @@ requires 'MRO::Compat'       => 0;
 test_requires 'Test::More';
 
 auto_install;
-resources repository => 'http://dev.catalyst.perl.org/repos/Catalyst/trunk/Catalyst-View-TD/';
+resources repository => 'http://dev.catalyst.perl.org/repos/Catalyst/Catalyst-View-TD/trunk';
 
 WriteAll;

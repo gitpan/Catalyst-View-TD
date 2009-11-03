@@ -2,9 +2,9 @@ package Template::Declare::Catalyst;
 
 use strict;
 use warnings;
-use parent 'Template::Declare';
+use base 'Template::Declare';
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 __PACKAGE__->mk_classdata('context');
 

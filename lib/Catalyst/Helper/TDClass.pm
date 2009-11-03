@@ -3,7 +3,7 @@ package Catalyst::Helper::TDClass;
 use strict;
 use warnings;
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 =head1 Name
 
@@ -62,6 +62,8 @@ David E. Wheeler <david@justatheory.com>
 
 This library is free software. You can redistribute it and/or modify it under
 the same terms as perl itself.
+
+=begin comment
 
 =cut
 
@@ -123,3 +125,10 @@ the same terms as Perl itself.
 =cut
 
 1;
+
+__the_end__
+
+=end comment
+
+=cut
+

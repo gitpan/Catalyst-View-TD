@@ -461,7 +461,8 @@ Methods
 
 SEE ALSO
     Catalyst, Catalyst::View::TT, Catalyst::Helper::View::TD,
-    Catalyst::Helper::View::TDSite, Template::Manual
+    Catalyst::Helper::TDClass, Template::Manual,
+    <http://justatheory.com/computers/programming/perl/catalyst/>
 
 Author
     David E. Wheeler <david@justatheory.com>

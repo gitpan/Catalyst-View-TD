@@ -2,10 +2,10 @@ package Catalyst::View::TD;
 
 use strict;
 use warnings;
-use parent qw/Catalyst::View/;
+use base qw/Catalyst::View/;
 use Template::Declare::Catalyst;
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 __PACKAGE__->mk_accessors('init');
 __PACKAGE__->mk_accessors('dispatch_to');
@@ -624,7 +624,8 @@ C<< $c->stash >> will be passed if C<$c> is defined.
 =head1 SEE ALSO
 
 L<Catalyst>, L<Catalyst::View::TT>, L<Catalyst::Helper::View::TD>,
-L<Catalyst::Helper::View::TDSite>, L<Template::Manual>
+L<Catalyst::Helper::TDClass>, L<Template::Manual>,
+L<http://justatheory.com/computers/programming/perl/catalyst/>
 
 =head1 Author
 

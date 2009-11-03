@@ -3,7 +3,7 @@ package Catalyst::Helper::View::TD;
 use strict;
 use warnings;
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 =head1 Name
 
@@ -51,8 +51,7 @@ sub mk_comptest {
 
 =head1 SEE ALSO
 
-L<Catalyst::View::TD>, L<Catalyst::Manual>, L<Catalyst::Test>,
-L<Catalyst::Request>, L<Catalyst::Response>, L<Catalyst::Helper>
+L<Catalyst::View::TD>,  L<Catalyst::Helper::TDClass>
 
 =head1 Author
 
@@ -62,6 +61,8 @@ David E. Wheeler <david@justatheory.com>
 
 This library is free software. You can redistribute it and/or modify it under
 the same terms as perl itself.
+
+=begin comment
 
 =cut
 
@@ -136,3 +137,9 @@ ok my $view = [% app %]->view('[% name %]'), 'Get [% name %] view object';
 # my $tx = Test::XPath->new( xml => $output, is_html => 1);
 # $tx->ok('/html', 'Should have root html element');
 # $tx->is('/html/head/title', 'Hello, Theory', 'Title should be correct');
+
+__the_end__
+
+=end comment
+
+=cut
