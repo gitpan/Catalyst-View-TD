@@ -5,7 +5,7 @@ use warnings;
 
 use Catalyst; # qw/-Debug/;
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 __PACKAGE__->config(
     name                  => 'TestApp',

@@ -4,8 +4,9 @@ use strict;
 use warnings;
 use base qw/Catalyst::View/;
 use Template::Declare::Catalyst;
+use MRO::Compat;
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 __PACKAGE__->mk_accessors('init');
 __PACKAGE__->mk_accessors('dispatch_to');
@@ -593,7 +594,7 @@ for Template::Declare's L<C<init()>|Template::Declare/init> method except:
 
 Additional option. Determines whether or not classes found under the dispatch
 template's namespace are automatically aliased as described in
-L</"Auto-Aliasing>.
+L</"Auto-Aliasing">.
 
 =item strict
 

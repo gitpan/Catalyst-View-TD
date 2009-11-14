@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use base 'Template::Declare';
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 __PACKAGE__->mk_classdata('context');
 

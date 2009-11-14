@@ -3,7 +3,7 @@ package Catalyst::Helper::View::TD;
 use strict;
 use warnings;
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 =head1 Name
 

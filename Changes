@@ -1,5 +1,9 @@
 Revision history for Perl extension Catalyst::View::TD.
 
+0.12    2009-11-14T17:20:40
+        - Added MRO::Compat declaration to support `next::method()` as
+          appropriate.
+
 0.11    2009-11-03T00:17:46
         - Fixed some broken links, including the repository link in META.yml.
         - Fixed POD in the helpers so that the templates embedded in them are

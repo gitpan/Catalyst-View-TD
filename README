@@ -437,7 +437,7 @@ Methods
     auto_alias
         Additional option. Determines whether or not classes found under the
         dispatch template's namespace are automatically aliased as described
-        in ""Auto-Aliasing".
+        in "Auto-Aliasing".
 
     strict
         Set to true by default so that exceptional conditions are
